@@ -1,10 +1,11 @@
-function App() {
+import { Solid } from "./pages/Solid";
 
+function App() {
   return (
     <main>
-      <h1>Hello 🌍</h1>
+      <Solid />
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
